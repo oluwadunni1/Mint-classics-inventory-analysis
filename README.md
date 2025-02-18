@@ -25,24 +25,24 @@ The analysis aimed to identify the most suitable warehouse for closure based on 
 - Evaluated total storage utilization for each warehouse.  
 - **Warehouse C (West) had the lowest occupancy**, suggesting inefficient space usage.  
 
-📌 *[Warehouse capacity analysis query: `queries/warehouse_capacity.sql` | Results: `results/warehouse_capacity_results.csv`]*  
+[Warehouse capacity analysis query](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/scripts/warwhouseCap_query_script.sql) | [Results](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/results/warehouse_capacity_result.csv)  
 
 ### **2. Revenue Performance by Warehouse**  
 - Assessed total sales revenue per warehouse.  
 - **Warehouse C (West) generated the least revenue**, reinforcing its case for closure.  
 
-📌 *[Revenue analysis query: `queries/revenue_analysis.sql` | Results: `results/revenue_analysis_results.csv`]*  
+[Revenue analysis query](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/scripts/warehouse_revenue_script.sql) | [Results](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/results/warehouse_revenue_result.csv) 
 
 ### **3. Product Line Investigation**  
 - Examined the types of products stored in Warehouse C.  
 - **Warehouse C only stocked vintage cars**, whereas other warehouses stored up to two product lines.  
-📌 [Product Line query: queries/warehouse_c_products.sql | Results: results/warehouse_c_products.csv]
+[Product Line query](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/scripts/warehouse_c_product_query.sql) | [Results](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/results/warehouse_c_products_result.csv)
 
 ### **4. Inventory Turnover Analysis**  
 - Calculated inventory turnover for each warehouse by comparing total stock levels to quantity ordered.  
 - While **Warehouse C ranked third in turnover**, further analysis showed all warehouses had products with **high inventory but low sales**.  
 
-📌 *[Inventory turnover query: `queries/inventory_turnover.sql` | Results: `results/inventory_turnover_results.csv`]*  
+[Inventory turnover query](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/scripts/turnover_per_warehouse_script.sql) | [Results](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/results/turnover_result_per_warehouse.csv)
 
 ### **5. Low-Moving and Excess Inventory Products**  
 - Identified:  
@@ -51,7 +51,7 @@ The analysis aimed to identify the most suitable warehouse for closure based on 
 - Conversely, some high-demand products had **low inventory**, indicating potential supply chain inefficiencies.  
 - The **marketing team will determine thresholds** for discontinuing products.  
 
-📌 *[Low-moving products query: `queries/low_moving_products.sql` | Results: `results/low_moving_products_results.csv`]*  
+[Product performance query](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/scripts/turnover_per_warehouse_script.sql) | [Results](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/results/product_performance_result.csv)
 
 ## Conclusion  
 Based on warehouse capacity, revenue performance, and inventory turnover, Warehouse C (West) emerges as the strongest candidate for closure. Additionally, relocating inventory from Warehouse C would be more cost-effective and efficient, as it occupies the least storage space compared to the other warehouses.
