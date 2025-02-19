@@ -35,7 +35,8 @@ The analysis aimed to identify the most suitable warehouse for closure based on 
 
 ### **3. Product Line Investigation**  
 - Examined the types of products stored in Warehouse C.  
-- **Warehouse C only stocked vintage cars**, whereas other warehouses stored up to two product lines.  
+- **Warehouse C only stocked vintage cars**, whereas other warehouses stored up to two product lines.
+
 [Product Line query](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/scripts/warehouse_c_product_query.sql) | [Results](https://github.com/oluwadunni1/Mint-classics-inventory-analysis/blob/main/results/warehouse_c_products_result.csv)
 
 ### **4. Inventory Turnover Analysis**  
@@ -58,4 +59,10 @@ Based on warehouse capacity, revenue performance, and inventory turnover, Wareho
 
 However, further discussions with the marketing team and supply chain managers are necessary to finalize the discontinuation of specific products and determine the optimal redistribution of inventory across the remaining warehouses.
 
-📌 *[See full SQL queries in `/queries/` and results in `/results/`]*  
+## Consideration of Limitations and Assumptions
+- In the analysis, I assumed that all warehouses have the same storage capacity, which may not reflect actual conditions in real-world warehouses. 
+
+- I assumed that products with low sales are candidates for de-stocking or discontinuation. However, this assumption might not always hold for seasonal items or products with long shelf lives that may have occasional sales spikes.
+
+📌 See full SQL queries in _queries_ folder and results in _results_ folder
+    You can find the database script and ER diagram in the _assets_ folder
