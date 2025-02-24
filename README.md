@@ -19,7 +19,7 @@ Using **MySQL Workbench**, I conducted an in-depth analysis of the company’s i
 
 ## Key Findings  
 
-The analysis aimed to identify the most suitable warehouse for closure based on inventory efficiency and sales performance. The key steps and insights gained from our approach are as follows:  
+The analysis aimed to identify the most suitable warehouse for closure based on inventory efficiency and sales performance. The key steps and insights gained from my approach are as follows:  
 
 ### **1. Warehouse Capacity Analysis**  
 - Evaluated total storage utilization for each warehouse.  
