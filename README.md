@@ -32,5 +32,6 @@ The analysis combined SQL for data extraction, Python for further analysis and s
 - SQL scripts -`/scripts`
 - Python notebook - `/notebooks`
 - Executive Report - `/dashboard`
-- ER diagram & database script - `/aseets` 
+- ER diagram & database script - `/aseets`
+- Query results - `/Data`
 
