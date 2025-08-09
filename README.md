@@ -31,7 +31,7 @@ The analysis combined SQL for data extraction, Python for further analysis and s
 ## Project Assets 
 - SQL scripts -`/scripts`
 - Python notebook - `/notebooks`
-- Executive Report - `/dashboard`
+- Executive Report - `/Report`
 - ER diagram & database script - `/aseets`
 - Query results - `/Data`
 
