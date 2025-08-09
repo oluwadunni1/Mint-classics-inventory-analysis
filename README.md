@@ -25,7 +25,7 @@ The analysis combined SQL for data extraction, Python for further analysis and s
   - Statistical testing to support findings
   - Creation of combined datasets for visualization
   
-- Results were visualized in Tableau, producing an executive summary report.
+- Results were visualized in Tableau, producing an executive summary report. [View Report](https://public.tableau.com/app/profile/dunni.olu.ajayi/viz/MintclassicsReport/Dashboard3) 
 
 
 ## Project Assets 
